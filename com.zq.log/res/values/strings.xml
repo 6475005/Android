@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">com.zq.log</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">银狐日程助手</string>
+	
+    
+    <string name="add">添加日程</string>
+    <string name="query">查询日程</string>
+    <string name="back">退出应用</string>
+    <string name="back2">返回</string>
+    <string name="logo">银狐日程助手</string>
+    <string name="conmit">确定</string>
+    <string name="DateSelect">选择日期</string>
+    <string name="TimeSelect">选择时间</string>
+    <string name="checkButton">提醒</string>
+    <string name="label">日程提醒</string>
+    
+    <string name="Title">标题</string>
+    <string name="Type">类型</string>
+    
+    <string name="queryByTitle">标题查询</string>
+    <string name="queryByDate">日期查询</string>
+    <string name="queryByType">类型查询</string>
+    <string name="content">内容</string>
+</resources>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBFBF" >
+
+    <TextView
+        android:id="@+id/queryByTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/queryByTitle" />
+
+    <Button
+        android:id="@+id/conmit"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/conmit" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/back2" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/conmit"
+        android:layout_alignRight="@+id/conmit"
+        android:layout_marginBottom="23dp"
+        android:minWidth="99dip" />
+
+    <TextView
+        android:id="@+id/queryByType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignLeft="@+id/queryByDate"
+        android:layout_marginBottom="14dp"
+        android:text="@string/queryByType" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/queryByDate"
+        android:layout_centerVertical="true"
+        android:text="@string/DateSelect" />
+
+    <EditText
+        android:id="@+id/queryByDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/spinner1"
+        android:layout_alignTop="@+id/button1"
+        android:ems="7"
+        android:inputType="text" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/queryByDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/queryByTitle"
+        android:layout_marginBottom="40dp"
+        android:text="@string/queryByDate" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/queryByDate2"
+        android:layout_below="@+id/queryByTitle"
+        android:ems="7"
+        android:inputType="text" />
+
+</RelativeLayout>
